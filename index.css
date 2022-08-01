@@ -1,0 +1,62 @@
+body {
+    font-family: sans-serif;
+}
+
+h1{
+    display: block;
+    margin: 30px auto;
+    color: rgb(36, 36, 36);
+    font-size: 40px;
+    text-align: center;
+}
+
+div {
+    display: block;
+    margin:auto;
+    width: 400px;
+    text-align: justify;
+}
+
+.card{
+    
+    width: 25%;
+    margin: 50px auto;
+    background-color: #d5ee90;
+    padding: 20px;
+    text-align: justify;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.card h1 {
+    font-weight: 500;
+    color:
+}
+
+.card div {
+margin: 20px 0px;
+   text-align: center;
+    
+}
+
+.card input {
+    width: 70%;
+    padding: 5px;
+    border-bottom: 2px solid black;
+    background-color: white;
+}
+.card button {
+    padding: 8px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background: white;
+    font-weight: #90ee90;
+}
+
+fieldset {
+    margin-top: 20px;
+    border: 0%;
+   
+    
+}

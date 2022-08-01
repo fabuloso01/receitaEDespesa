@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="card">
+        <h1>Controle de contas</h1>
+
+        <div>
+            <p><strong>Receita</strong></p>
+            <input type="number" placeholder="Valor da receita" id="receitaInput">
+            <button onclick="adicionarReceita()">Adicionar</button>
+        </div>
+
+        <div>
+            <p><strong>Despesa</strong></p>
+            <input type="number" placeholder="Valor da despesa" id="despesaInput">
+            <button onclick="adicionarDespesa()">Adicionar</button>
+        </div>
+
+       
+        <fieldset>    
+            <p><strong>Total de receita:</strong><span id="preco"> </span></p>
+            <p><strong>Total de despesa:</strong> <span id="despesa"> </span></p>
+            <p><strong>Balança:</strong> <span id="balanca"> </span></p>
+        </fieldset>
+        
+    </div>
+
+
+    </div>
+</body>
+</html>
